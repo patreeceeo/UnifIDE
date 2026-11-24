@@ -16,6 +16,7 @@ Modern programming languages, environments and platforms have evolved organicall
 
 - Run in web browser or as native app
 - Editor
+  - Structural, graphical editor
   - Source tree can be explored various ways
     - Expanding text tree
     - Expanding call graph
