@@ -5,6 +5,8 @@ This mockup shows what it looks like to define a function in the editor. It will
 - function calls
 - function definitions
 - literal values
+- tagged unions
+- comments
 
 And that's it, because that's what the entire language consists of!
 

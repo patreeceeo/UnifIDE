@@ -1,6 +1,7 @@
 import { expect, test } from "@playwright/test";
 
-test("the index lists the mockups", async ({ page }) => {
+test("the index links to every mockup", async ({ page }) => {
   await page.goto("./");
-  await expect(page.getByRole("heading", { level: 1, name: "UnifIDE Mockups" })).toBeVisible();
+  await page.getByRole("link", { name: "Define a Function" }).click();
+  await expect(page.getByRole("heading", { level: 1, name: "Define a Function" })).toBeVisible();
 });
